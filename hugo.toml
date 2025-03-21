@@ -10,6 +10,10 @@ enableGitInfo = true
 # disable taxonomy, term and RSS (which removes categories, tags and index.xml)
 disableKinds = ["taxonomy", "term", "RSS"]
 
+[module]
+  [[module.imports]]
+    path = 'github.com/geekifan/zero-academic-page'
+
 [languages]
   [languages.en]
     languageName = 'English'
